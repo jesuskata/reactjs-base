@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 // Assets
 import { Anchor, Image } from './styles';
 
-const DEFAULT_IMG = 'https://images.pexels.com/photos/1035591/pexels-photo-1035591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940';
+const DEFAULT_IMG = 'http://bit.ly/2P2tFez';
 
 export const FirstStyled = ({ cover = DEFAULT_IMG, path }) => (
   <Anchor href={path} target="_blank">
