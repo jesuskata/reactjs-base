@@ -3,18 +3,19 @@
 This is a ReactJS Project base with all the Webpack configurations made from the ground.
 
 - [ReactJS Project Base](#reactjs-project-base)
-  - [Extensions and configurations needed](#extensions-and-configurations-needed)
+  - [Recommended Extensions and configurations](#recommended-extensions-and-configurations)
     - [Extensions](#extensions)
     - [Configurations](#configurations)
   - [Running your ReactJS Project](#running-your-reactjs-project)
 
-## Extensions and configurations needed
+## Recommended Extensions and configurations
 
 ### Extensions
 
 1. ESLint
 2. EditorConfig for VS Code
 3. Prettier - Code formatter
+4. vscode-styled-components
 
 ### Configurations
 
