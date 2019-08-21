@@ -1,4 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable no-undef */
+// Dependencies
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-ReactDOM.render(<h1>Project prepared to use Babel and React</h1>, document.getElementById('app'))
+// Components
+import { App } from './App';
+
+ReactDOM.render(<App />, document.getElementById('app'));

@@ -1,7 +1,10 @@
 // Dependencies
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
   output: {
     filename: 'app.bundle.js'
   },
@@ -13,7 +16,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -27,4 +30,4 @@ module.exports = {
       }
     ]
   }
-}
+};
