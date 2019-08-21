@@ -2,6 +2,15 @@
 // Dependencies
 import React from 'react';
 
+// Assets
+import { GlobalStyles } from './GlobalStyles';
+
+// Components
+import { FirstStyled } from './components/FirstStyled';
+
 export const App = () => (
-  <h1>Project prepared to use Babel and React. Including an ESLint configuration.</h1>
+  <div>
+    <GlobalStyles />
+    <FirstStyled path="https://github.com/jesuskata/reactjs-base" />
+  </div>
 );
