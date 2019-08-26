@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 // Dependencies
 import React from 'react';
 
